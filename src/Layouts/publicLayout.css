@@ -1,0 +1,42 @@
+.public-layout {
+    /* width: 100% !important; 
+     height: 100% !important;  */
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+
+.public-layout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.public-left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0458B7;
+    height: 100vh !important;
+}
+
+.public-layout-image {
+    margin-top: 100px;
+
+}
+
+.public-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    /* height:  100% !important; */
+}
+
+@media screen and (max-width: 899px) {
+    .public-right-side {
+        margin-top: 50px !important;
+    }
+}
